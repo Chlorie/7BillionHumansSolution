@@ -1,0 +1,9 @@
+-- 7 Billion Humans (2199) --
+-- 28: Neural Pathways --
+
+mem1 = nearest datacube
+mem2 = nearest shredder
+pickup mem1
+giveto mem2
+
+
