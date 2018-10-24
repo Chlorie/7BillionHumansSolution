@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2199) --
+-- 11: Injection Sites 1 --
+
+pickup s
+step s
+step s
+step s
+step s
+a:
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step s
+step s
+jump a
+
+
