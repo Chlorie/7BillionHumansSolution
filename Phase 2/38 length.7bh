@@ -1,0 +1,35 @@
+-- 7 Billion Humans (2214M) --
+-- 38: Seek and Destroy 3 --
+
+if s == shredder:
+	mem2 = set s
+	step e
+	a:
+	if se == hole:
+		pickup mem1
+		giveto mem2
+	endif
+	if se == datacube:
+		if se < mem1 or
+		 mem1 != datacube:
+			mem1 = set se
+		endif
+		step e
+	endif
+	jump a
+endif
+mem2 = nearest wall
+b:
+step n
+if n == datacube:
+	if n < mem1 or
+	 mem1 != datacube:
+		mem1 = set n
+	endif
+	jump b
+endif
+pickup mem1
+step mem2
+drop
+
+

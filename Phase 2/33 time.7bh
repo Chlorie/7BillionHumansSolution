@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2214M) --
+-- 33: Data Backup Day --
+
+if w > e:
+	mem1 = set e
+	mem2 = set w
+else:
+	mem1 = set w
+	mem2 = set e
+endif
+pickup mem2
+write mem1
+drop
+
+

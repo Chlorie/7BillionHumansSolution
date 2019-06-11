@@ -1,0 +1,23 @@
+-- 7 Billion Humans (2214M) --
+-- 32: Creative Writhing --
+
+a:
+step s
+pickup c
+write 99
+drop
+if w == 0:
+	pickup w
+	write 99
+	step w
+	drop
+endif
+if e == 0:
+	pickup e
+	write 99
+	step e
+	drop
+endif
+jump a
+
+
